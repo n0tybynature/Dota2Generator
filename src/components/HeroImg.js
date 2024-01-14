@@ -13,6 +13,6 @@ export default function Image(props){
 
     if( img === undefined) return "Waiting for your random."
     return (
-        <Imagestyled src={'http://api.opendota.com'+ img} alt={alt}/>
+        <Imagestyled src={'https://cdn.cloudflare.steamstatic.com/'+ img} alt={alt}/>
     )
 }
